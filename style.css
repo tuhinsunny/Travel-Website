@@ -1,0 +1,430 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 35px 80px 25px 80px;
+}
+
+nav li {
+    cursor: pointer;
+}
+
+nav h1 {
+    color: #42a7c3;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+nav button {
+    background-color: #fa8443;
+    color: white;
+    font-weight: 500;
+    padding: 9px 25px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+nav li:hover {
+    color: gray;
+}
+
+nav button:hover {
+    background-color: #d5855a;
+}
+
+.explore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 35px 80px 25px 80px;
+}
+
+.explore img {
+    height: 34em;
+    margin-left: 80px;
+}
+
+.explore .download h1 {
+    font-size: 60px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.explore .download button {
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    display: inline-flex;
+    border-radius: 7px;
+    padding: 2px;
+}
+
+.explore .download button svg {
+    filter: invert(10);
+    width: 40px;
+}
+
+.download button span {
+    font-size: 8px;
+}
+
+.playstore {
+    /* display: flex; */
+    align-items: center;
+    width: 7vw;
+    margin-right: 20px;
+}
+
+.apple {
+    /* display: flex; */
+    align-items: center;
+    width: 8vw;
+}
+.destination{
+    margin: 85px 80px 25px 80px;
+}
+.destination h1{
+    font-size: 30px;
+}
+.destination .heading p{
+    color: #5b5c5c;
+    font-size: 14px;
+    margin-bottom: 50px;
+}
+.boxes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.boxes .box{
+    height: 332px;
+    width: 296px;
+    background-color: #f4f5f6 ;
+    border-radius: 7px;
+    margin-bottom: 105px;
+}
+.boxes .box .details{
+    margin: 0 16px 16px 18px;
+}
+.boxes .box .details .location{
+    display: flex;
+    align-items:flex-start;
+    gap: 10px;
+}
+.boxes .box .details .location p{
+    color: #9b9c9c;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+.boxes .box .details p:nth-child(2){
+    font-size: 15px;
+    font-weight: bold;
+}
+.boxes .box .details p:nth-child(3){
+    color: #a9abab;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+.boxes .box .details p:nth-child(4){
+    color: #8ec9d9;
+    font-weight: bold;
+}
+.box:hover{
+    transition: 1s ease-in-out;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+    cursor: pointer;
+}
+.choose{
+    margin : 35px 80px 25px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 75px;
+    background-color: #f1f9fba8;
+}
+.choose .content .products .flight{
+    display: flex;
+    padding: 16px 24px;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 15px;
+    border-radius: 7px;
+}
+.choose .content .products .justplane{
+    background: #ffffff;
+    margin-top: 25px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 7px;
+}
+.choose .content .products .flight:hover{
+    transition: 1s ease-out;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    cursor: pointer;
+}
+.choose .content h1{
+    font-size: 30px;
+    font-weight: 700;
+}
+.products .another{
+    font-size: 15px;
+    
+}
+.products .flight h2{
+    font-size: 18px;
+    font-weight: 900;
+}
+.products .flight p{
+    color: #6e6666;
+    font-size: 14px;
+}
+.plan{
+    margin: 100px 80px 25px 80px;
+    text-align: center;
+}
+.plan h1{
+    font-size: 30px;
+    margin-bottom: 2px;
+}
+.plan h3{
+    color: #6f7173;
+    font-size: 15px;
+    font-weight: 100;
+}
+.plan :nth-child(3){
+    margin-bottom: 30px;
+}
+.plan img{
+    width: 80em;
+}
+.indonesia .beauty .buttons button{
+    padding: 10px 75px;
+    font-weight: bold;
+}
+.b1{
+    background-color: #36adc0;
+    color: white;
+}
+.b2{
+    color: #40aebf;
+}
+
+.indonesia{
+    height: 698px;
+    background-image: url("Assets/1971537.jpg");
+    background-size:cover;
+    /* background-position: center center; */
+    background-repeat: no-repeat;
+    position: relative;
+}
+.beauty{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+.container{
+    position: absolute ;
+    margin: 20vh 50px 50px 60px;
+    border: 2px solid rgb(84, 43, 43);
+    border-radius: 10px;
+    width: 90vw;
+    backdrop-filter: blur(50px);
+    border-radius: 7px;
+}
+.beauty h1,h3{
+    color: rgb(7, 5, 5);
+}
+.beauty h1{
+    font-weight: bolder;
+    font-size: 35px;
+}
+.beauty h3{
+    font-weight: 100;
+    font-size: 17px;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+.buttons button{
+    border-radius: 7px;
+    border: 2px solid #165f6a;
+    font-size: 15px;
+}
+.buttons .b1:hover{
+    background-color: white;
+    color: #40aebf;
+    transition: 1s ease-in-out;
+    cursor: pointer;
+}
+.buttons .b2:hover{
+    background-color: #40aebf;
+    color: white;
+    transition: 1s ease-in-out;
+    cursor: pointer;
+}
+.rest{
+    position: absolute;
+    margin: 70vh 80px 0px 80px;
+    backdrop-filter: blur(50px);
+    border: 2px solid white;
+    border-radius: 7px;
+    width: 90vw;
+    padding: 10px;
+}
+.rest ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    cursor: pointer;
+}
+.rest li{
+    border-radius: 7px;
+    padding: 5px 10px;
+}
+.rest li:hover{
+    transition: 1s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.rest h1{
+    margin-bottom: 15px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 15px;
+}
+.social{
+    display: flex;
+    gap: 15px;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+.explore .download button{
+    cursor: pointer;
+}
+@media only screen and (max-width: 768px) {
+    nav ul {
+        gap: 10px;
+    }
+
+    nav {
+        margin: 25px 10px 5px 10px;
+    }
+
+    nav h1 {
+        font-size: 25px;
+        padding-right: 10px;
+    }
+
+    nav li {
+        font-size: 11px;
+    }
+
+    nav button {
+        padding: 3px 6px;
+        margin-left: 3px;
+    }
+
+    .explore{
+        flex-direction: column;
+    }
+    .explore img{
+        height: 20em;
+        margin: 0;
+        
+    }
+    .explore{
+        margin: 35px 20px 25px 20px;
+    }
+    .explore .download h1{
+        font-size: 35px;
+    }
+    .explore .download button{
+        width: 120px;
+        height: 40px;
+        margin-bottom: 20px;
+    }
+    .playstore{
+        margin-right: 10px;
+    }
+    .plan img{
+        height: 280px;
+        width: 380px;
+    }
+    .boxes{
+        flex-direction: column;
+    }
+    .boxes .box{
+        margin-bottom: 40px;
+    }
+    .destination{
+        margin: 50px 40px 25px 50px;
+    }
+    .choose{
+        flex-direction: column;
+        row-gap: 0px;
+        background-color: white;
+        margin : 35px 40px 25px 40px;
+    }
+    .choose .girlimage img{
+        height: 20em;
+        width: 20em;
+        ;
+    }
+    .plan{
+        margin: 10px 20px 25px 20px;
+    }
+    .plan img{
+        height: 14em;
+        width: 22em;
+    }
+    .beauty{
+        flex-direction: column;
+    }
+    .container{
+        margin: 30px 15px 20px 15px;
+    }
+    .indonesia{
+        width: 100%;
+        height: 700px;
+    }
+    .rest{
+    margin: 400px 20px 0px 10px;
+    
+    }
+    .rest ul{
+        flex-direction: column;
+        row-gap: 10px;
+    }
+    .choose .content .products .flight{
+        gap: 20px;
+    }
+}
